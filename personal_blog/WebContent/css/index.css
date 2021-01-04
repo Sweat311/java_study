@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/*	清楚所有元素的内外边距*/
+*{
+	margin:0px;
+	padding:0px;
+}
+img{
+	width:100%;
+}
+
+header{
+	background: #eee;
+	
+}
+main{
+	width:1200px;
+	margin: auto;
+}
+footer{
+	background: #ddd;
+	clear:both;
+}
+#centent-left{
+	background: #aaa;
+	width:900px;
+	float:left;
+}
+#centent-right{
+	background: #999;
+	width:290px;
+	float:right;
+}
+/*==============================================================*/
+#top_bg_photo{
+	display:block;
+	width:100%;
+	
+}
+header>div{
+	background: #000;
+	color:#fff;
+}
+header>div>div{
+	width:1200px;
+	margin:auto;
+	
+}
+/*设定内部元素的垂直居中*/
+header>div>div>*{
+	vertical-align: middle;
+}
+header span{
+	display:inline-block;
+	height:50px;
+	padding:0px 10px;
+	line-height:50px;
+	
+}
+
+.right{
+	float:right;
+}
+header span:hover {
+	background:#999;
+}
+header input{
+	width:200px;
+	background: #000;
+	color:#fff;
+	border-width:0px 0px 2px;
+	padding:15px 0px 10px;
+	background: url(../imgs/icon/search.png) no-repeat right center;
+}
+/*======================主体内容=========================*/
+.tj>div:nth-child(1){/*序号选择器*/
+	height:300px;
+	overflow:hidden;
+}
+.tj>div:nth-child(2){/*序号选择器*/
+	background: #000;
+	color:#fff;
+	padding:10px;
+}
+.tj{
+	border-radius:5px;
+	overflow: hidden;
+}
+main{
+	margin:10px auto;
+	
+}
+#centent-left{
+	background-color:transparent;/*设置透明底色*/
+}
+/*主体推荐文章 小*/
+.xiao{
+	width:290px;
+	
+}
+.xiao>div:nth-child(1){
+	height:150px;
+}
+.left{
+	float:left;
+}
+.tj:nth-child(4){
+	margin:auto;
+}
+
+
